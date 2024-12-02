@@ -41,7 +41,7 @@ const dolci = [
     tags: ["torta paesana", "rustica", "tradizionale", "dolce", "festa"],
   },
 ];
-// il conteggio
+// Aggiungere il conteggio al inizio dell'array
 dolci.unshift({ "Il conteggio del posts": dolci.length });
 // Esportazione
 module.exports = {
